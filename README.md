@@ -1,4 +1,4 @@
-**This repository is no longer actively maintained**
+Forked to allow updates fort Laravel 6+
 
 # Voyager Frontend
 
