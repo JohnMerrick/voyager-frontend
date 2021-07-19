@@ -1,4 +1,4 @@
-Forked to allow updates fort Laravel 6+
+Forked to allow updates for Laravel 6+
 
 # Voyager Frontend
 
