@@ -1,5 +1,5 @@
 {
-    "name": "pvtl/voyager-frontend",
+    "name": "JohnMerrick/voyager-frontend",
     "description": "The Missing Front-end for The Missing Laravel Admin.",
     "keywords": [
         "laravel",
@@ -16,9 +16,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "pvtl/voyager-pages": "^0.2.13",
-        "pvtl/voyager-blog": "^0.2.10",
-        "tcg/voyager": "^1.3",
+        "tcg/voyager": "^1.5",
         "spatie/laravel-sitemap": "^5.7",
         "teamtnt/laravel-scout-tntsearch-driver": "^11.0"
     },
@@ -29,21 +27,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Pvtl\\VoyagerFrontend\\": "src/"
+            "JohnMerrickl\\VoyagerFrontend\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Pvtl\\VoyagerFrontend\\Test\\": "tests"
+            "JohnMerrick\\VoyagerFrontend\\Test\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Pvtl\\VoyagerFrontend\\Providers\\VoyagerFrontendServiceProvider"
+                "JohnMerrick\\VoyagerFrontend\\Providers\\VoyagerFrontendServiceProvider"
             ],
             "aliases": {
-                "VoyagerFrontend": "Pvtl\\VoyagerFrontend\\Facade"
+                "VoyagerFrontend": "JohnMerrick\\VoyagerFrontend\\Facade"
             }
         }
     },
